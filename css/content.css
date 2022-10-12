@@ -93,3 +93,26 @@
     gap: 30px
   }
 }
+
+@media (max-width: 1060px) {
+  .main-content {
+    max-width: 800px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .content-container {
+    order: 1;
+    gap: 20px;
+  }
+
+  .content-container h1 {
+    padding-top: 50px;
+  }
+
+  .subcontent-container {
+    padding-bottom: 20px;
+  }
+}
