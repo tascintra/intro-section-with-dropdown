@@ -1,7 +1,15 @@
-.container {
+.main-content {
   max-width: 1140px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 150px;
 }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 70px;
+}
+
