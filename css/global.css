@@ -1,9 +1,3 @@
-:root {
-  --w-color: #fff;
-  --gray500: #777;
-  --gray100: #151515;
-}
-
 body {
   font-family: Epilogue, Arial, Helvetica, sans-serif;
   color: var(--gray500);
