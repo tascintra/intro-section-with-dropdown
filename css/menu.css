@@ -9,6 +9,10 @@
   font-size: 1rem;
 }
 
+#main-menu {
+  gap: 60px;
+}
+
 .mob-menu {
   display: none;
 }

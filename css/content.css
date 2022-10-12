@@ -1,5 +1,5 @@
 .main-content {
-  max-width: 1140px;
+  max-width: 1200px;
   padding: 80px;
   margin: 0 auto;
   display: grid;
@@ -10,17 +10,38 @@
 .content-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 70px;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.subcontent-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-bottom: 60px;
+}
+
+.client-icons {
+  margin-top: auto;
 }
 
 .content-container h1 {
-  font-size: 4.5rem;
+  font-size: 5rem;
   color: var(--gray100);
-  padding-top: 130px;
+  padding-top: 120px;
 }
 
 .content-container p {
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.learn-button {
+  background: var(--gray100);
+  padding: 20px 30px;
+  color: #fbfbfb;
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+  font-size: 1.1rem;
 }
