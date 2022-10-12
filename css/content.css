@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 150px;
+  align-items: center;
 }
 
 .content-container {
@@ -29,6 +30,7 @@
   font-size: 5rem;
   color: var(--gray100);
   padding-top: 120px;
+  width: 11ch;
 }
 
 .content-container p {
@@ -44,4 +46,29 @@
   width: 100px;
   text-align: center;
   font-size: 1.1rem;
+}
+
+@media (max-width: 1360px) {
+  .content-container h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 1260px) {
+  .main-content {
+    padding: 60px 140px;
+    gap: 100px;
+  }
+
+  .content-container h1 {
+    font-size: 3.8rem;
+  }
+
+  .content-container p {
+    font-size: 1.1rem;
+  }
+
+  .learn-button {
+    font-size: 1rem;
+  }
 }
