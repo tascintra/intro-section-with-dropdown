@@ -8,6 +8,10 @@
   margin: 0 auto;
 }
 
+.drop-menu {
+  gap: 8px;
+}
+
 .register-button {
   border: 2px solid var(--gray500);
   padding: 12px 20px;
