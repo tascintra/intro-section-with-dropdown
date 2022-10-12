@@ -2,7 +2,4 @@
 @import "./global.css";
 @import "./menu.css";
 @import "./content.css";
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@import "./footer.css";
