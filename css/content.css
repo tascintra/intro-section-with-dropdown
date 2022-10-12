@@ -1,6 +1,6 @@
 .main-content {
   max-width: 1200px;
-  padding: 80px;
+  padding: 30px 80px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -56,11 +56,21 @@
 
 @media (max-width: 1260px) {
   .main-content {
-    padding: 60px 140px;
+    padding: 10px 140px;
     gap: 100px;
   }
 
+  .content-container {
+    gap: 40px;
+  }
+
+  .subcontent-container {
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+
   .content-container h1 {
+    padding-top: 90px;
     font-size: 3.8rem;
   }
 
