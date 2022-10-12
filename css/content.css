@@ -10,11 +10,17 @@
 .content-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 70px;
 }
 
 .content-container h1 {
   font-size: 4.5rem;
   color: var(--gray100);
+  padding-top: 130px;
+}
+
+.content-container p {
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
