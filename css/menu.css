@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  padding: 20px 40px;
+  max-width: 1440px;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.sub-menu {
+  display: flex;
+  gap: 40px;
+  align-self: flex-end;
+}
