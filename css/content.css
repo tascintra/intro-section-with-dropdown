@@ -82,3 +82,14 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 1160px) {
+  .main-content {
+    padding: 0px 140px;
+    gap: 80px;
+  }
+
+  .client-icons {
+    gap: 30px
+  }
+}
