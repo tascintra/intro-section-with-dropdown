@@ -125,7 +125,7 @@
 
 @media (max-width: 600px) {
   .main-content {
-    padding: 20px 0px;
+    padding: 0px;
   }
 
   .content-container {
@@ -150,5 +150,28 @@
 
   .content-container p {
     text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .content-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .content-container p {
+    width: 38ch;
+  }
+
+  .learn-button {
+    padding: 18px;
+  }
+
+  .client-icons {
+    gap: 20px;
+  }
+
+  .client-icons img {
+    max-width: 75px;
   }
 }
