@@ -24,6 +24,7 @@
 
 .client-icons {
   margin-top: auto;
+  justify-content: space-between;
 }
 
 .content-container h1 {
@@ -130,7 +131,6 @@
 
   .content-container {
     padding: 0px 20px;
-    justify-content: center;
   }
 
   .subcontent-container {
@@ -144,12 +144,12 @@
   }
 
   .client-icons {
-    justify-content: center;
     padding: 0px 20px;
   }
 
   .content-container p {
     text-align: center;
+    max-width: 50ch;
   }
 }
 
@@ -173,5 +173,18 @@
 
   .client-icons img {
     max-width: 75px;
+  }
+}
+
+@media (max-width: 430px) {
+  .client-icons {
+    gap: 0px;
+    padding: 0px;
+    justify-content: space-evenly;
+    width: 375px;
+  }
+
+  .client-icons img {
+    max-width: 65px;
   }
 }
