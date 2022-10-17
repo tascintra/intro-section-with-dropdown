@@ -13,20 +13,43 @@
   gap: 60px;
 }
 
+.drop-menu {
+  gap: 8px;
+  position: relative;
+}
+
+.nav-menu {
+  display: none;
+  position: absolute;
+  top: 4rem;
+  width: max-content;
+  background: white;
+  border: 1px solid transparent;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px hsla(0, 0%, 0%, 0.103);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+#features-menu {
+  left: 110px;
+}
+
+.nav-menu a {
+  gap: 16px;
+}
+
 .mob-menu {
   display: none;
 }
 
-.drop-menu {
-  gap: 8px;
-}
-
 .arrow-up {
   display: none;
-  
 }
 
-.arrow-up {
+.arrow-down {
   display: initial;
 }
 
