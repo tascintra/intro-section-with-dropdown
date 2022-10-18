@@ -51,6 +51,20 @@
 
 .nav-menu.active {
   display: flex;
+  animation: slideDown 0.4s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0.3;
+    max-height: 0;
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    opacity: 1;
+    max-height: 250px;
+    transform: translate3d(0, 0px, 0);
+  }
 }
 
 .nav-menu a {
