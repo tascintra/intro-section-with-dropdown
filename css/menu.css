@@ -39,14 +39,14 @@
   right: -25%;
 }
 
-.drop-menu.ativo::after {
+.drop-menu.active::after {
   content: url(../images/icon-arrow-up.svg);
   position: absolute;
   top: -10%;
   right: -25%;
 }
 
-.nav-menu.ativo {
+.nav-menu.active {
   display: flex;
 }
 
