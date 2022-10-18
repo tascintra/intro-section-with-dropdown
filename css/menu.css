@@ -32,13 +32,23 @@
   gap: 16px;
 }
 
+.drop-menu::after {
+  content: url(../images/icon-arrow-down.svg);
+  position: absolute;
+  top: -10%;
+  right: -25%;
+}
+
+.drop-menu.ativo::after {
+  content: url(../images/icon-arrow-up.svg);
+  position: absolute;
+  top: -10%;
+  right: -25%;
+}
+
 .nav-menu.ativo {
   display: flex;
 }
-
-/* #features-menu {
-  left: 275px;
-} */
 
 .nav-menu a {
   gap: 16px;
