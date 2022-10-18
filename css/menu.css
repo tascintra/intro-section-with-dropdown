@@ -10,8 +10,8 @@
 }
 
 .hover-menu:hover {
-  color: #111111;
-  border-color: #111111;
+  color: var(--gray000);
+  border-color: var(--gray000);
   transition: 0.3s;
 }
 
@@ -28,7 +28,7 @@
   display: none;
   position: absolute;
   top: 4.5rem;
-  background: white;
+  background: #fff;
   border: 1px solid transparent;
   padding: 25px;
   border-radius: 10px;
@@ -39,11 +39,11 @@
 }
 
 .drop-menu.active {
-  color: #111111;
+  color: var(--gray000);
 }
 
 .drop-menu::after {
-  content: url(../images/icon-arrow-down.svg);
+  content:url("data:image/svg+xml,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23686868' stroke-width='1.5' fill='none' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
   position: absolute;
   top: -10%;
   right: -25%;
@@ -51,8 +51,12 @@
   transition: 0.3s;
 }
 
+.drop-menu:hover::after {
+  content: url("data:image/svg+xml,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23111111' stroke-width='1.5' fill='none' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
+}
+
 .drop-menu.active::after {
-  content: url(../images/icon-arrow-up.svg);
+  content: url("data:image/svg+xml,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23111111' stroke-width='1.5' fill='none' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
   position: absolute;
   top: -15%;
   right: -25%;
