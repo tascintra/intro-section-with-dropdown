@@ -12,6 +12,7 @@
 .hover-menu:hover {
   color: #111111;
   border-color: #111111;
+  transition: 0.3s;
 }
 
 #main-menu {
