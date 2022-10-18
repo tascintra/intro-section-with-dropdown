@@ -37,13 +37,16 @@
   position: absolute;
   top: -10%;
   right: -25%;
+  transform: rotate(-360deg);
+  transition: 0.3s;
 }
 
 .drop-menu.active::after {
   content: url(../images/icon-arrow-up.svg);
   position: absolute;
-  top: -10%;
+  top: -15%;
   right: -25%;
+  transform: rotate(0deg);
 }
 
 .nav-menu.active {
