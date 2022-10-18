@@ -43,10 +43,17 @@
   background: var(--gray100);
   padding: 20px 30px;
   color: #fbfbfb;
+  border: 1px solid var(--gray100);
   border-radius: 15px;
   width: 100px;
   text-align: center;
   font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.learn-button:hover {
+  background: #fff;
+  color: var(--gray100);
 }
 
 @media (max-width: 1360px) {
