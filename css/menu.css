@@ -58,9 +58,9 @@
 .drop-menu.active::after {
   content: url("data:image/svg+xml,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23111111' stroke-width='1.5' fill='none' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
   position: absolute;
-  top: -15%;
+  top: 0%;
   right: -25%;
-  transform: rotate(0deg);
+  transform: rotate(-180deg);
 }
 
 .nav-menu.active {
