@@ -1,7 +1,6 @@
 function initDropMenuList() {
   const dropMenuList = document.querySelectorAll('.drop-menu');
-  // dropMenuList[1].classList.add('active')
-  // dropMenuList[1].nextElementSibling.classList.add('active')
+
   function activateDropMenu() {
     this.classList.toggle('active');
     this.nextElementSibling.classList.toggle('active');
@@ -39,10 +38,18 @@ function closeOpenedMenu() {
       }
     }
   }
-
-
 }
 
 dropMenuList.forEach((item) => {
   item.addEventListener('click', closeOpenedMenu)
 })
+
+
+// Interactions for hamburger menu
+hamMenu = document.querySelector('.mob-menu')
+
+function activateHamMenu() {
+  hamMenu.classList.toggle('active')
+}
+
+hamMenu.addEventListener('click', activateHamMenu)

@@ -68,6 +68,11 @@
   animation: slideDown 0.4s forwards;
 }
 
+.mob-menu.active {
+  content: url("../images/icon-close-menu.svg");
+
+}
+
 @keyframes slideDown {
   from {
     opacity: 0.3;
