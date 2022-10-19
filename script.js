@@ -45,8 +45,8 @@ dropMenuList.forEach((item) => {
 
 // Interactions for hamburger menu
 function initMobileMenu() {
-  hamMenu = document.querySelector('.mob-menu');
-  mainMenu = document.querySelector('.main-menu');
+  const hamMenu = document.querySelector('.mob-menu');
+  const mainMenu = document.querySelector('.main-menu');
 
   function activateHamMenu() {
     hamMenu.classList.toggle('active');

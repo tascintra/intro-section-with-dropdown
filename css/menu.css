@@ -164,6 +164,15 @@
     padding: 12px 65px;
   }
 
+  .nav-menu.active {
+    display: block;
+    position: initial;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    gap: 20px;
+  }
+
   .mob-menu {
     display: block;
     z-index: 1;
