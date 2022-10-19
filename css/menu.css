@@ -129,13 +129,38 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 15px;
     width: 65vw;
     height: 100vh;
   }
 
-  .sub-menu {
+  .primary-nav {
+    padding-top: 85px;
+    align-self: flex-start;
+
+    margin: 25px;
+  }
+
+  .secondary-nav {
+    align-items: center;
+  }
+
+  .prim-sub-nav {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .secd-sub-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .register-button {
+    padding: 12px 65px;
   }
 
   .mob-menu {
