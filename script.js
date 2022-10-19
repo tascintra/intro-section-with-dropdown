@@ -49,6 +49,7 @@ function initMobileMenu() {
   mainMenu = document.querySelector('.main-menu');
 
   function activateHamMenu() {
+    hamMenu.classList.toggle('active');
     mainMenu.classList.toggle('responsive');
   }
 
