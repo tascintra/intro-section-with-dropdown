@@ -130,8 +130,9 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 15px;
-    width: 65vw;
+    width: 45vw;
     height: 100vh;
+    z-index: 1;
   }
 
   .primary-nav {
@@ -167,5 +168,10 @@
     display: block;
     z-index: 1;
   }
+}
 
+@media (max-width: 600px) {
+  .main-menu.responsive {
+    width: 65vw;
+  }
 }
