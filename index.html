@@ -24,10 +24,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="flex-list" id="main-menu">
-        <img src="./images/logo.svg" alt="Snap Logo" />
-        <nav aria-label="Primary navigation">
-          <ul class="flex-list">
+      <img src="./images/logo.svg" alt="Snap Logo" />
+        <nav class="primary-menu" aria-label="Primary navigation">
+          <ul class="flex-list responsive-menu">
             <li>
               <a class="flex-list drop-menu hover-menu" href="#features">
                 Features
@@ -79,11 +78,12 @@
             <li><a class="hover-menu" href="#about">About</a></li>
           </ul>
         </nav>
-      </div>
 
-      <nav aria-label="Secondary navigation">
-        <ul class="flex-list">
-          <li><a class="hover-menu" href="#login">Login</a></li>
+      <nav class="secondary-menu-nav" aria-label="Secondary navigation">
+        <ul class="flex-list responsive-menu">
+          <li>
+            <a class="hover-menu" href="#login">Login</a>
+          </li>
           <li>
             <a class="register-button hover-menu" href="#register">Register</a>
           </li>
