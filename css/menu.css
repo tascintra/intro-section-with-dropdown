@@ -122,11 +122,25 @@
 
   .main-menu.responsive {
     display: block;
-    
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 65vw;
+    height: 100vh;
+  }
+
+  .sub-menu {
+    display: flex;
+    flex-direction: column;
   }
 
   .mob-menu {
     display: block;
+    z-index: 1;
   }
 
 }
