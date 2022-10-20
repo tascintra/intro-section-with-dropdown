@@ -1,25 +1,10 @@
 footer {
-  margin-top: auto;
-  padding-top: 100px;
+  
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width: 1360px) {
-  footer {
-    padding-top: 110px;
-  }
-}
-
-@media (max-width: 825px) {
-  footer {
-    padding-top: 0px;
-  }
-}
-
-@media (max-width: 600px) {
-  footer {
-    padding-top: 100px;
-  }
-}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: #4bb1da; }
