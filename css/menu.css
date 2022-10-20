@@ -210,3 +210,9 @@
     width: 65vw;
   }
 }
+
+@media (max-width: 320px) {
+  .register-button {
+    padding: 12px 45px;
+  }
+}

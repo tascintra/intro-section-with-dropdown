@@ -201,3 +201,33 @@
     max-width: 65px;
   }
 }
+
+@media (max-width: 400px) {
+  .content-container h1 {
+    font-size: 2rem;
+  }
+
+  .content-container p {
+    font-size: 0.93rem;
+  }
+}
+
+@media (max-width: 374px) {
+  .client-icons {
+    width: 350px;
+  }
+}
+
+@media (max-width: 350px) {
+  .content-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .content-container p {
+    font-size: 0.84rem;
+  }
+
+  .client-icons {
+    width: 300px;
+  }
+}
