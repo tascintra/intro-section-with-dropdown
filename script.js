@@ -22,9 +22,11 @@ function initDropMenuList() {
     })
   }
     
-    dropMenuList.forEach((item) => {
-      item.addEventListener('click', closeOpenedMenu);
-    });
+  dropMenuList.forEach((item) => {
+    item.addEventListener('click', closeOpenedMenu);
+  });
+
+    
   // Close the dropdown if there's a click outside of it
   window.onclick = function (e) {
     if (!e.target.matches('.drop-menu')) {
@@ -40,9 +42,6 @@ function initDropMenuList() {
   };
 }
 initDropMenuList();
-
-const dropMenuList = document.querySelectorAll('.drop-menu');
-
 
 // Interactions for hamburger menu
 function initMobileMenu() {
