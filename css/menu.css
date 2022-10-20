@@ -185,13 +185,14 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    opacity: 1;
+    opacity: 0;
     background-color: hsla(0, 0%, 8%, 0.5);
     transition: all .3s linear;
   }
 
   .overlay.active {
     display: initial;
+    opacity: 1;
   }
 
   .mob-menu {

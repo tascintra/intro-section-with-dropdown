@@ -10,6 +10,21 @@ function initDropMenuList() {
     item.addEventListener('click', activateDropMenu);
   });
 
+  // Close the opened menu if there's a click on the other drop menu
+  function closeOpenedMenu() {
+    dropMenuList.forEach((item) => {
+      if (item != this) {
+        if (item.classList.contains('active')) {
+          item.classList.remove('active')
+          item.nextElementSibling.classList.remove('active')
+        }
+      }
+    })
+  }
+    
+    dropMenuList.forEach((item) => {
+      item.addEventListener('click', closeOpenedMenu);
+    });
   // Close the dropdown if there's a click outside of it
   window.onclick = function (e) {
     if (!e.target.matches('.drop-menu')) {
@@ -27,21 +42,7 @@ function initDropMenuList() {
 initDropMenuList();
 
 const dropMenuList = document.querySelectorAll('.drop-menu');
-function closeOpenedMenu() {
-  let i;
-  for (i = 0; i < dropMenuList.length; i++) {
-    if (dropMenuList[i] != this) {
-      if (dropMenuList[i].classList.contains('active')) {
-        dropMenuList[i].classList.remove('active');
-        dropMenuList[i].nextElementSibling.classList.remove('active');
-      }
-    }
-  }
-}
 
-dropMenuList.forEach((item) => {
-  item.addEventListener('click', closeOpenedMenu);
-});
 
 // Interactions for hamburger menu
 function initMobileMenu() {
