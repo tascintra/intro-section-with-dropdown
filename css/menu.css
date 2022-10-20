@@ -140,7 +140,6 @@
   .primary-nav {
     padding-top: 85px;
     align-self: flex-start;
-
     margin: 25px;
   }
 
@@ -162,6 +161,19 @@
     gap: 30px;
   }
 
+  .drop-menu::after {
+    top: -10%;
+    right: -3%;
+    /* transform: rotate(-360deg); */
+    transition: 0.3s;
+  }
+
+  .drop-menu.active::after {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+
   .register-button {
     padding: 12px 65px;
   }
@@ -173,10 +185,6 @@
     box-shadow: none;
     display: flex;
     gap: 20px;
-  }
-  
-  .drop-menu.active::after {
-    right: -5%;
   }
 
   body {
