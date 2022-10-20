@@ -47,10 +47,12 @@ dropMenuList.forEach((item) => {
 function initMobileMenu() {
   const hamMenu = document.querySelector('.mob-menu');
   const mainMenu = document.querySelector('.main-menu');
+  const menuOverlay = document.querySelector('.overlay')
 
   function activateHamMenu() {
     hamMenu.classList.toggle('active');
     mainMenu.classList.toggle('responsive');
+    menuOverlay.classList.toggle('active')
   }
 
   hamMenu.addEventListener('click', activateHamMenu);

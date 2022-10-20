@@ -11,6 +11,7 @@
 
 .header > img {
   padding-right: 20px;
+  
 }
 
 .main-menu {
@@ -133,6 +134,7 @@
     width: 45vw;
     height: 100vh;
     z-index: 1;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .primary-nav {
@@ -171,6 +173,30 @@
     box-shadow: none;
     display: flex;
     gap: 20px;
+  }
+  
+  .drop-menu.active::after {
+    right: -5%;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    background-color: hsla(0, 0%, 8%, 0.5);
+    transition: all .3s linear;
+  }
+
+  .overlay.active {
+    display: initial;
   }
 
   .mob-menu {
