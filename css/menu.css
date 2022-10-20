@@ -161,19 +161,6 @@
     gap: 30px;
   }
 
-  .drop-menu::after {
-    top: -10%;
-    right: -3%;
-    /* transform: rotate(-360deg); */
-    transition: 0.3s;
-  }
-
-  .drop-menu.active::after {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-  }
-
   .register-button {
     padding: 12px 65px;
   }
