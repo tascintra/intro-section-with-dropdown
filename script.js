@@ -1,4 +1,4 @@
-function initDropMenuList() {
+function initHandleDropMenuList() {
   const dropMenuList = document.querySelectorAll('.drop-menu');
 
   function activateDropMenu() {
@@ -41,7 +41,7 @@ function initDropMenuList() {
     }
   };
 }
-initDropMenuList();
+initHandleDropMenuList();
 
 // Interactions for hamburger menu
 function initMobileMenu() {
