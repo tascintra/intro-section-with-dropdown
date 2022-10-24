@@ -84,6 +84,8 @@ How to build JavaScript drop down menu interations and mobile menu interations a
 
 Now for the next project I'll refactor the [loopstudios](https://github.com/tascintra/loopstudios) project that I made some time ago and wasn't able to finish the challenge. The loopstudios project is a landing page that has some interactions with mobile menu and is challenging to make the proposed positioning in the page.
 
+<br>
+
 ## 🦸🏾‍♂️ Author
 
 - LinkedIn: [linkedin.com/in/tascintra](https://www.linkedin.com/in/tascintra/)
