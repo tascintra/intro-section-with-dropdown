@@ -27,7 +27,7 @@ A Frontend Mentor challenge.
 <br>
 
 <p align="center">
-  <img alt="rocketpay" src="./design/desktop-preview.jpg" width="100%">
+  <img alt="Intro section screen shot" src="./design/desktop-preview.jpg" width="100%">
 </p>
 
 <br>
