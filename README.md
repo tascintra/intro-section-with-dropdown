@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center"> Intro section with dropdown navigation </h1>
 
 <p align="center">
@@ -196,4 +195,3 @@ Now for the next project I'll refactor the [loopstudios](https://github.com/tasc
 #### :memo: License
 
 This project is under a MIT license.
->>>>>>> b2b941b485707927a08fca78b5d02962b2066808
